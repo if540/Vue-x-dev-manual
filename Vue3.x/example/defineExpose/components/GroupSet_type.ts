@@ -1,5 +1,5 @@
 import type { Ref } from 'vue'
 
-export interface IGroupSet {
+export interface IGroupSetExpose {
     inputValue: Ref<number>
 }
