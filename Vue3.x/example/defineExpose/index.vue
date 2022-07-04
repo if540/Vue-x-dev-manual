@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import GroupSet from './components/GroupSet.vue'
 import { ref, computed } from 'vue'
-import type { IGroupSet } from './components/utile_type';
-let $groupSet = ref<IGroupSet|null>(null)
+import GroupSet from './components/GroupSet.vue'
+import type { IGroupSetExpose } from './components/GroupSet_type';
+let $groupSet = ref<IGroupSetExpose|null>(null)
 let shoppingCar = computed(() => {
   return $groupSet
 })
